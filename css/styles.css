@@ -342,15 +342,85 @@ img {
 }
 
 .team-position {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
-.social-link .icon:not(:last-child) {
-    margin-right: 7px;
+.social-link {
+    display: inline-flex;    
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    color: #AFB1B8;
+    
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-link:not(:last-child) {
+    margin-right: 10px;
+}
+
+.icon {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;    
+}
+
+
+/* Clients */
+
+
+.clients-list {
+    display: inline-flex
+}
+
+.clients-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--title-text-color); 
+}
+
+.clients-company {
+    padding: 16px 32px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-company:hover,
+.clients-company:focus {
+    cursor: pointer;    
+    border: 1px solid var(--accent-color);    
+}
+
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.icon-company {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+
+.icon-company:hover,
+.icon-company:focus {
+    fill: var(--accent-color);
 }
 
 
