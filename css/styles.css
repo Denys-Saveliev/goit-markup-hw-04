@@ -418,6 +418,10 @@ img {
     align-items: baseline;
 }
 
+.address-footer {
+    margin-right: 70px;
+}
+
 .logo-footer {    
     color: var(--accent-color);
     text-decoration: none;
